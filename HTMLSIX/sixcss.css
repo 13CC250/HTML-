@@ -1,0 +1,265 @@
+/*默认重置*/
+body,p,h1,h2,h3,h4,h5,h6,form,textarea,ul,ol,dl,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/*自适应*/
+.wrap{
+     width: 980px;
+    margin: 0 auto;
+}
+.main{
+      margin: 0 45px;
+}
+/*头部*/
+.header{
+     position: relative;
+ }
+.header_left{
+    width: 110px;
+    height: 61px;
+    background-color: rgb(212,93,92);
+}
+.header_left p{
+    position: absolute;left: 0px;bottom: 0px;
+    font-family: 黑体;
+    font-size: 12px;
+    color: #ffffff;
+}
+.header_right p{
+     position: absolute;right: 0px;bottom: 0px;
+    font-size: 12px;
+    font-family: 黑体;
+    color: #d45d5c;
+}
+/*中间*/
+.content{
+    border-top: solid 2px #938e8c;
+    border-bottom: solid 1px #938e8c;
+    padding-top: 37px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.up{
+
+}
+.down{
+  margin-top: 70px;
+    margin-bottom: 40px;
+
+}
+/*左上*/
+.left_up{
+    width: 641px;
+}
+.lu_one {
+
+}
+.lu_two{
+    margin-top: 40px;
+}
+.section_one{
+   width: calc(40% - 15px);
+    float: left;
+
+}
+.section_two{
+    width: calc(30% - 30px);
+    float: left;
+    margin-left: 30px;
+}
+.section_three{
+   width: calc(30% - 15px);
+    float: left;
+    margin-left: 30px;
+
+}
+.section_one h6{
+    font-size: 16px;
+    color: #418c59;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.section_one p{
+    font-size: 12px;
+    font-family: 宋体;
+    color: #767777;
+    margin: 16px 0;
+}
+.section_two h6{
+    font-size: 16px;
+    color: #d2994f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.section_two p{
+    font-size: 12px;
+    color: #231815;
+    font-family: 微软雅黑;
+    opacity: 0.7;
+    margin: 16px 0;
+}
+.section_three h6{
+    color: #cc7680;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.section_three p{
+    color: #cd4a48;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 16px 0;
+    opacity: 0.7;
+    font-style: italic;
+}
+/*右上*/
+.right_up{
+    position: absolute;top: 37px;right: 20px;
+    width: 203px;
+    border-top: solid 2px #938e8c;
+}
+ .a{
+    font-size: 24px;
+    color: #000000;
+    font-family: 微软雅黑;
+     text-decoration: underline;
+}
+.b{
+    font-size: 24px;
+    color: #000000;
+    font-family: 微软雅黑;
+    text-decoration: underline;
+}
+ .c{
+    font-size: 12px;
+    color: #676767;
+    font-family: 楷体;
+}
+ .d{
+    font-size: 116px;
+    color: #75b86b;
+    font-family: 微软雅黑;
+    font-style: italic;
+}
+.e{
+    font-family: 微软雅黑;
+    font-size: 55px;
+    color: #cc8091;
+    float: left;
+}
+ .f{
+    font-size: 21px;
+    color: #cc8091;
+    font-family: 微软雅黑;
+     float: left;
+}
+.g{
+    font-size: 12px;
+    color: #cc8091;
+    font-family: 微软雅黑;
+    float: left;
+
+}
+/*左下*/
+.left_down{
+    width: 415px;
+    float: left;
+}
+.ld_one{
+    border-bottom: solid 2px #11456b;
+    margin-bottom: 20px;
+}
+.ld_one h1{
+    font-size: 42px;
+    color: #11456b;
+    font-family: 黑体;
+    margin: 16px;
+    font-weight: bold;
+}
+.ld_one span{
+    font-size: 72px;
+    color: #f5e327;
+    font-family: 宋体;
+    font-weight: bold;
+    font-style: italic;
+}
+.ld_one p{
+    margin-bottom: 20px;
+    font-size: 33px;
+    color: #11456b;
+    font-family: 黑体;
+    font-weight: bold;
+}
+.ld_two{
+    margin-top: 27px;
+}
+.ld_two img{
+    float: right;
+    display: block;
+    padding: 0px 0 10px 10px;
+
+}
+.ld_two span{
+    font-size: 70px;
+    color: #f5e327;
+    font-family: 微软雅黑;
+    float: left;
+}
+/*右下*/
+.right_down{
+    width: 458px;
+    float: right;
+
+}
+.rd_one{
+    margin-bottom: 28px;
+}
+.rd_two{
+    background-color: rgb(238,237,214);
+    overflow: hidden;
+    position: relative;
+}
+.rd_two_up{
+      text-align: center;
+}
+.rd_two_up p{
+    font-size: 16px;
+    color: #5a5b5b;
+    font-family: 宋体;
+    font-style: italic;
+    margin: 20px;
+    text-align: left;
+
+}
+.rd_two_left{
+   position: absolute;bottom: 0px;left: 0px;
+}
+.rd_two_right{
+    width: 120px;
+    height: 160px;
+    float: right;
+}
+.rd_two_right p{
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: 黑体;
+    padding: 14px;
+
+}
+/*尾部*/
+.footer p{
+    float: right;
+    font-family: 黑体;
+    font-size: 12px;
+    color: #d45d5c;
+
+}
+/**/
+.clear{
+    clear: both;
+}
